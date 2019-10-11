@@ -1,0 +1,5 @@
+paramiko==2.4.2
+boto3==1.9.246
+pandas==0.23.4
+psycopg2==2.7.5
+JayDeBeApi==1.1.1
