@@ -76,7 +76,8 @@ case "$1" in
       # With the "Local" and "Sequential" executors it should all run in one container.
       airflow scheduler &
     fi
-    exec airflow webserver
+    sleep 60
+		exec airflow webserver
     ;;
   worker|scheduler)
     # To give the webserver time to run initdb.
